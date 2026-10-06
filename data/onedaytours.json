@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Sigiriya Rock Fortress",
+    "province": "Central Province",
+    "image": "sigiriya.jpg",
+    "description": "Ancient lion rock with breathtaking views, frescoes, and water gardens.",
+    "price": "25000",
+    "highlights": [
+      "Sigiriya Lion Rock Climb",
+      "Ancient Frescoes",
+      "Water Gardens",
+      "Panoramic Views"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Kandy City Tour",
+    "province": "Central Province",
+    "image": "kandy.jpg",
+    "description": "Experience Sri Lankan culture with the Temple of the Tooth, Kandy Lake and cultural traditions.",
+    "price": "18000",
+    "highlights": [
+      "Temple of the Tooth",
+      "Kandy Lake Walk",
+      "Cultural Dance Show",
+      "Royal Botanical Garden"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Ella Adventure Tour",
+    "province": "Uva Province",
+    "image": "ella.jpg",
+    "description": "A scenic mountain escape featuring Nine Arches Bridge, Little Adam's Peak and tea plantations.",
+    "price": "22000",
+    "highlights": [
+      "Nine Arches Bridge",
+      "Little Adam's Peak",
+      "Tea Plantations",
+      "Scenic Train Views"
+    ]
+  }
+]

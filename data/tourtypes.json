@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Adventure",
+    "description": "Adventure tours"
+  },
+  {
+    "id": 2,
+    "name": "Beach",
+    "description": "Beach holidays"
+  },
+  {
+    "id": 3,
+    "name": "City",
+    "description": "City experiences"
+  }
+]

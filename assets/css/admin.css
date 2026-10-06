@@ -1,0 +1,46 @@
+
+:root{--a-navy:#081526;--a-navy2:#10253d;--a-teal:#0e9f9a;--a-gold:#f3b33d;--a-bg:#f4f7f8;--a-border:#e3e9e8}
+body{background:var(--a-bg)!important;color:#172235;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.sidebar{
+ width:258px!important;background:linear-gradient(180deg,#071321 0%,#0d2237 100%)!important;
+ border-right:1px solid rgba(255,255,255,.05);padding:18px 14px!important;
+ box-shadow:10px 0 35px rgba(8,21,38,.10);
+}
+.sidebar .brand-wrap{padding:10px 8px 18px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:16px}
+.sidebar .nav-link{color:#aebdcb!important;border-radius:12px;margin:4px 0;padding:11px 13px;font-weight:600;transition:.2s}
+.sidebar .nav-link:hover,.sidebar .nav-link.active{background:rgba(14,159,154,.16)!important;color:#fff!important}
+.sidebar .nav-link i{width:24px;text-align:center;color:#6fd3ce}
+.sidebar .logout-link{color:#ffb3b3!important}
+.topbar{
+ left:258px!important;height:72px;background:rgba(255,255,255,.90)!important;
+ backdrop-filter:blur(14px);border-bottom:1px solid var(--a-border);
+}
+.main{margin-left:258px!important;padding:100px 30px 35px!important}
+.admin-title{font-weight:850;letter-spacing:-1px}
+.stat{
+ border:1px solid var(--a-border)!important;border-left:4px solid var(--a-teal)!important;
+ border-radius:18px!important;box-shadow:0 8px 25px rgba(8,21,38,.055)!important;
+ transition:.2s;background:#fff
+}
+.stat:hover{transform:translateY(-3px);box-shadow:0 14px 35px rgba(8,21,38,.09)!important}
+.stat .stat-icon{width:42px;height:42px;border-radius:12px;background:#e8f8f6;color:var(--a-teal);display:flex;align-items:center;justify-content:center}
+.card{border:1px solid var(--a-border)!important;border-radius:18px!important;box-shadow:0 8px 28px rgba(8,21,38,.055)!important}
+.card-header{border-bottom:1px solid var(--a-border)!important;border-radius:18px 18px 0 0!important}
+.table> :not(caption)>*>*{padding:14px 12px;border-bottom-color:#edf1f0}
+.table thead th{font-size:.76rem;text-transform:uppercase;letter-spacing:.7px;color:#667085;font-weight:800}
+.btn{border-radius:10px;font-weight:700}
+.form-control,.form-select{border-radius:11px!important;border-color:#dce5e4!important;padding:.72rem .85rem!important}
+.thumb{width:64px!important;height:46px!important;border-radius:10px!important;object-fit:cover}
+.admin-pill{background:#e8f8f6;color:#087a76;border-radius:999px;padding:5px 9px;font-size:.75rem;font-weight:800}
+@media(max-width:991px){
+ .sidebar{width:78px!important}
+ .sidebar .brand-text,.sidebar .nav-text{display:none}
+ .main{margin-left:78px!important;padding-left:20px!important;padding-right:20px!important}
+ .topbar{left:78px!important}
+ .sidebar .nav-link{text-align:center;padding:12px 8px}
+}
+@media(max-width:575px){
+ .sidebar{width:0!important;padding:0!important;overflow:hidden}
+ .main{margin-left:0!important}
+ .topbar{left:0!important}
+}

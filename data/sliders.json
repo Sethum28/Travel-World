@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Paris",
+    "image": "paris.jpg",
+    "id": 1
+  },
+  {
+    "title": "Maldives",
+    "image": "maldives.jpg",
+    "id": 2
+  },
+  {
+    "title": "Japan",
+    "image": "japan.jpg",
+    "id": 3
+  },
+  {
+    "title": "Sri Lanka",
+    "image": "srilanka.jpg",
+    "id": 4
+  }
+]
